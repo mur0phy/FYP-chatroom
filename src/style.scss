@@ -14,6 +14,9 @@
   }
 }
 
+$blue: #0000FF;
+$yellow: #FFFF00;
+
 .formContainer {
   background-color: #a7bcff;
   height: 100vh;
@@ -94,7 +97,7 @@
   align-items: center;
   justify-content: center;
 
-  .container {
+  .ChatroomContainer {
     border: 1px solid white;
     border-radius: 10px;
     width: 65%;
@@ -105,12 +108,12 @@
      width: 90%;
     }
 
-    .sidebar {
+    .ChatroomSidebar {
       flex: 1;
       background-color: #3e3c61;
       position: relative;
 
-      .navbar {
+      .ChatroomNavbar {
         display: flex;
         align-items: center;
         background-color: #2f2d52;
